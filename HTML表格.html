@@ -1,0 +1,111 @@
+<html>
+<body>
+<p>每个表格由table标签开始</p>
+<p>每个表格行由tr标签开始</p>
+<p>每个表格数据由td标签开始</p>
+
+<h4>一列:</h4>
+<table border="1">
+<tr>
+    <td>100</td>
+</tr>
+</table>
+
+<h4>一行四列：</h4>
+<table border="1">
+<tr>
+    <td>100</td>
+	<td>&nbsp</td>
+	<td>999999999999</td>
+	<td>200</td>
+</tr>
+</table>
+<hr/>
+<h4>两行三列:</h4>
+<table border="1">
+<caption>表格标题</caption>
+<tr>
+<th></th>
+<th>Heading1</th>
+<th>Heading2</th>
+<th>Heading3</th>
+</tr>
+<tr>
+    <th>Heading1</th>
+    <td>100</td>
+	<td>200</td>
+	<td>300</td>
+</tr>
+<tr>
+    <th>Heading2</th>
+    <td>100</td>
+	<td></td>
+	<td>300</td>
+</tr>
+</table>
+<hr/>
+
+<h4>没有边框的表格:</h4>
+<table border="0">
+<tr>
+<th>Heading</th>
+</tr>
+<tr>
+    <td>100</td>
+	<td>200</td>
+	<td>300</td>
+</tr>
+<tr>
+    <td>100</td>
+	<td></td>
+	<td>300</td>
+</tr>
+</table>
+<hr/>
+
+<h4>横跨两列和两行的单元格</h4>
+<table border="1" width="1000" cellspacing="10" background="redground.jpg">
+<caption>横跨两列和两行的单元格</caption>
+<tr>
+    <th>姓名</th>
+	<th colspan="2">电话</th>
+</tr>
+<tr>
+   <td>
+      <p>表格里的段落1</p>
+	  <p>表格里的段落2</p>
+   </td>
+   <td>
+       这个单元格表格里的表格
+       <table border="1" background="background.jpg">
+	   <tr>
+	        <td>A</td>
+			<td>A</td>
+	   </tr>
+	   <tr>
+	        <td>A</td>
+			<td>A</td>
+	   </tr>
+	   </table>
+   </td>
+   <td align="left"> 18768130713</td>
+</tr>
+
+<tr>
+   <th rowspan="2">林斌</th>
+   <td background="background1.jpg" align="right">18768130713</td>
+   <td background="background2.jpg" align="center">18768130713</td>
+</tr>
+<tr>
+   <td>这里表格里有个列表：
+   <ul>
+       <li>林斌乖</li>
+	   <li>林斌乖</li>
+	   <li>林斌乖</li>
+   </ul>
+   </td>
+   <td>&nbsp;</td>
+</tr>
+</table>
+</body>
+</html>
